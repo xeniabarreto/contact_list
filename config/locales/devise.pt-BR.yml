@@ -67,3 +67,19 @@ pt-BR:
       not_saved:
         one: "1 erro impediu que %{resource} fosse salvo(a):"
         other: "%{count} erros impediram que %{resource} fosse salvo(a):"
+  activerecord:
+    errors:
+      models:
+        user:
+          attributes:
+            email:
+              blank: "não pode ficar em branco"
+            password:
+              blank: "não pode ficar em branco"
+            password:
+              too_short: "muito curta (o mínimo é %{count} caracteres)"
+            password_confirmation:
+              confirmation: "não coincide com a senha"
+            current_password:
+              blank: "não pode ficar em branco"
+              invalid: "é inválida"
